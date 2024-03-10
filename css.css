@@ -23,19 +23,29 @@ article {
     padding: 5px;
 }
 .szamok {
-   
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    align-items: center;
 }
 .szamok button {
-    
+    height: 30px;
+    width: 30px;
 }
+#item9 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
 .muvjelek {
     grid-area: muv;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 5px;
 }
 .muvjelek button {
-  
+    height: 30px;
     width: 30px;
 }
